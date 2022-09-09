@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/contracts/CookyDescriptor.sol": {
-      "lastModificationDate": 1662009486564,
-      "contentHash": "072b7dd3aeeae6302bc71aa6e2591bcc",
+      "lastModificationDate": 1662737022107,
+      "contentHash": "14c392e31835b1cfe6beb9080f9a1d25",
       "sourceName": "contracts/CookyDescriptor.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -34,7 +34,8 @@
         "./libraries/Base64.sol",
         "./libraries/Lines1.sol",
         "./libraries/Lines2.sol",
-        "./libraries/Lines3.sol"
+        "./libraries/Lines3.sol",
+        "./libraries/Lines4.sol"
       ],
       "versionPragmas": [
         "^0.8.2"
@@ -79,8 +80,8 @@
       ]
     },
     "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/contracts/interfaces/ICookyDescriptor.sol": {
-      "lastModificationDate": 1662005825171,
-      "contentHash": "af28a0312ff27eda9066cd088ae5bf51",
+      "lastModificationDate": 1662564264380,
+      "contentHash": "d2591a35decb648eb46992eef6182fe6",
       "sourceName": "contracts/interfaces/ICookyDescriptor.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -149,8 +150,8 @@
       ]
     },
     "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/contracts/libraries/Lines1.sol": {
-      "lastModificationDate": 1661711579164,
-      "contentHash": "4b923745af33f728f7d97340f9624099",
+      "lastModificationDate": 1662737070254,
+      "contentHash": "1b7d8c96b17092a8322e68a7f0234b93",
       "sourceName": "contracts/libraries/Lines1.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -187,8 +188,8 @@
       ]
     },
     "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/contracts/libraries/Lines2.sol": {
-      "lastModificationDate": 1660571379152,
-      "contentHash": "dfa182788e132274da7598330532a3b2",
+      "lastModificationDate": 1662737076771,
+      "contentHash": "09ccb27f05e6748aab30d747fa5b525b",
       "sourceName": "contracts/libraries/Lines2.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -225,8 +226,8 @@
       ]
     },
     "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/contracts/libraries/Lines3.sol": {
-      "lastModificationDate": 1661712776772,
-      "contentHash": "0265b98eefbf9732cc0b9aa70d47ff1f",
+      "lastModificationDate": 1662737082478,
+      "contentHash": "7a1cd84e55f6bb4f17b2de0e166ad920",
       "sourceName": "contracts/libraries/Lines3.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -260,6 +261,44 @@
       ],
       "artifacts": [
         "Lines3"
+      ]
+    },
+    "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/contracts/libraries/Lines4.sol": {
+      "lastModificationDate": 1662737087653,
+      "contentHash": "2f608122fb4a0ee2bab347404b32dd38",
+      "sourceName": "contracts/libraries/Lines4.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Strings.sol",
+        "@openzeppelin/contracts/utils/math/SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Lines4"
       ]
     },
     "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/node_modules/@openzeppelin/contracts/utils/math/SafeCast.sol": {
@@ -591,126 +630,6 @@
         "IERC165"
       ]
     },
-    "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
-      "lastModificationDate": 1661315160248,
-      "contentHash": "580a443491d9d70eb064b0130fc3cd01",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-      "solcConfig": {
-        "version": "0.8.2",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../ERC721.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC721URIStorage"
-      ]
-    },
-    "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/contracts/FortuneCooky.sol": {
-      "lastModificationDate": 1662005925710,
-      "contentHash": "f2cf55d6240714c8f966648544369212",
-      "sourceName": "contracts/FortuneCooky.sol",
-      "solcConfig": {
-        "version": "0.8.2",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
-        "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/utils/Counters.sol",
-        "@openzeppelin/contracts/utils/Strings.sol",
-        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-        "@openzeppelin/contracts/utils/math/SafeMath.sol",
-        "./libraries/Base64.sol",
-        "./interfaces/ICookyDescriptor.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.2"
-      ],
-      "artifacts": [
-        "FortuneCooky"
-      ]
-    },
-    "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol": {
-      "lastModificationDate": 1661315160231,
-      "contentHash": "88095889e59d16821879a8083f906503",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
-      "solcConfig": {
-        "version": "0.8.2",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../ERC721.sol",
-        "./IERC721Enumerable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC721Enumerable"
-      ]
-    },
     "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
       "lastModificationDate": 1661315160360,
       "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
@@ -748,10 +667,10 @@
         "Ownable"
       ]
     },
-    "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
-      "lastModificationDate": 1661315160089,
-      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
-      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+    "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/contracts/FortuneCooky.sol": {
+      "lastModificationDate": 1662737844147,
+      "contentHash": "eb716537293bbd91e9972d989c549648",
+      "sourceName": "contracts/FortuneCooky.sol",
       "solcConfig": {
         "version": "0.8.2",
         "settings": {
@@ -775,12 +694,58 @@
           }
         }
       },
-      "imports": [],
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
+        "@openzeppelin/contracts/utils/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/Counters.sol",
+        "@openzeppelin/contracts/utils/Strings.sol",
+        "./interfaces/ICookyDescriptor.sol",
+        "./libraries/Base64.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "FortuneCooky"
+      ]
+    },
+    "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
+      "lastModificationDate": 1661315160248,
+      "contentHash": "580a443491d9d70eb064b0130fc3cd01",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol"
+      ],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "Counters"
+        "ERC721URIStorage"
       ]
     },
     "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
@@ -818,10 +783,10 @@
         "SafeMath"
       ]
     },
-    "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol": {
-      "lastModificationDate": 1661315160329,
-      "contentHash": "f69eb47f667b846a8698697d25eeff4e",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
+    "/Users/audreytaylor-akwenye/Documents/GitHub/FortuneCookyContracts/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1661315160089,
+      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
       "solcConfig": {
         "version": "0.8.2",
         "settings": {
@@ -845,14 +810,12 @@
           }
         }
       },
-      "imports": [
-        "../IERC721.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "IERC721Enumerable"
+        "Counters"
       ]
     }
   }

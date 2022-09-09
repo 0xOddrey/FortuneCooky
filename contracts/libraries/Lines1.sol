@@ -1,5 +1,19 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: GPL-3.0
+
 pragma solidity ^0.8.2;
+
+/*********************************  
+                 %%#%                                    %(#%                  
+               %%(((%#((%(                            @%(((#(((%%%              
+            %##((((((%%((((%%              @@@@@@@@@@@@@@@@%(((((%#%%           
+         %%%%(((((((((%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%(((((((((%%%%        
+      %%%%%((((((((((((%@@@@@ FORTUNE COOKY NFT @@@@@@@@@%(((((((((((((%%#%     
+    %%%(((((((((((((((((%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%(((((((((((((((((((((& 
+ (((((########((((((((((##@@@@@@#                  #(((%((((((((##############((
+ ((((((((((((#####(((((((%%(%                      %#(%((((((####(((((((((((#   
+           ((((((########(%%                         %(((((((((((((  
+*********************************/
+
 
 pragma abicoder v2;
 
@@ -9,92 +23,103 @@ import "@openzeppelin/contracts/utils/math/SafeCast.sol";
 library Lines1 {
 
 
-     /// @dev Ethereum is going to 20k
+
     function fortune_1() public pure returns (string[2] memory) {
-        return ["Ethereum is going", "to 20k"];
+        return ["Nobody can take the", " first step for you"];
     }
 
-    /// @dev Accessory N°1 => Classic
+
     function fortune_2() public pure returns (string[2] memory) {
-        return ["Your road to glory will be", "rocky - but fullfilling"] ;
+        return ["Recognize yourself", " in others"] ;
     }
 
-    /// @dev Accessory N°1 => Classic
+
     function fortune_3() public pure returns (string[2] memory) {
-        return ["Patience is your ally", "Do not worry!"] ;
+        return ["You are worth", " a fortune"] ;
     }
 
-    /// @dev Accessory N°1 => Classic
+
     function fortune_4() public pure returns (string[2] memory) {
-        return ["Do not worry about money", "best things are in ETH"] ;
+        return ["You will find", " a new love"] ;
     }
 
-    /// @dev Accessory N°1 => Classic
+
     function fortune_5() public pure returns (string[2] memory) {
-        return ["Do not pursue happiness", "- create it."] ;
+        return ["Take NO for", " an answer"] ;
     }
 
-    /// @dev Accessory N°1 => Classic
+
     function fortune_6() public pure returns (string[2] memory) {
-        return ["All things are difficult", "before they are easy."] ;
+        return ["Go outside", " and play"] ;
     }
 
-    /// @dev Accessory N°1 => Classic
+
     function fortune_7() public pure returns (string[2] memory) {
-        return ["Fear is interest paid on a", "debt you may not owe."] ;
+        return ["Grab your seat", " at the Table"] ;
     }
 
-    /// @dev Accessory N°1 => Classic
+
     function fortune_8() public pure returns (string[2] memory) {
-        return ["to get the fruit - one", "must climb the tree."] ;
+        return ["Do not let yourself", " be rugged"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_9() public pure returns (string[2] memory) {
-        return ["Big journeys begin", "with a single step. "] ;
+        return ["Be better at", " being wrong"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_10() public pure returns (string[2] memory) {
-        return ["CPG Club", "to the Moon!"] ;
+        return ["You are your", " best thing"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_11() public pure returns (string[2] memory) {
-        return ["Salt and sugar", "look the same."] ;
+        return ["This week is a", " big week for you"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_12() public pure returns (string[2] memory) {
-        return ["Little by little - ", "one travels far"] ;
+        return ["Old ways do not", " bring new results"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_13() public pure returns (string[2] memory) {
-        return ["Not all those", "who wander are lost."] ;
+        return ["Try and fail - ", " but never fail to try"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_14() public pure returns (string[2] memory) {
-        return ["You are your", "best thing."] ;
+        return ["You will find your", " calling this week"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_15() public pure returns (string[2] memory) {
-        return ["Stay hungry.", "Stay foolish."] ;
+        return ["Follow what", " calls you"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_16() public pure returns (string[2] memory) {
-        return ["Try and fail - ", "but never fail to try."] ;
+        return ["Accept the", "closed door"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_17() public pure returns (string[2] memory) {
-        return ["Say yes - ", "then figure it out."] ;
+        return ["It is about", " Community - Baby"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_18() public pure returns (string[2] memory) {
-        return ["Embrace a ", "new narrative."] ;
+        return ["Do one thing", " WELL"] ;
     }
-    /// @dev Accessory N°1 => Classic
+
+
     function fortune_19() public pure returns (string[2] memory) {
-        return ["Get lost in", "the right direction."] ;
+        return ["Patience is your ally", " Do not worry"] ;
     }
     /// @dev Accessory N°1 => Classic
     function fortune_20() public pure returns (string[2] memory) {
-        return ["Stop saying yes to things", "you do not want to do."] ;
+        return ["You are", " EARLY"] ;
     }
 
 
